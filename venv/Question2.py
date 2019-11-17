@@ -1,11 +1,11 @@
 def isPalindrome(string,k):
-    list01 = []
+    temp= []
     for i in string:
-        if i not in list01:
-            list01.append(i)
+        if i not in temp:
+            temp.append(i)
         else:
-            list01.remove(i)
-    if len(list01) - k <= 1:
+            temp.remove(i)
+    if len() - k <= 1:
         print(True)
     else:
         print(False)
