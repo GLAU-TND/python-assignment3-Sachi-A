@@ -11,6 +11,6 @@ def isPalindrome(string,k):
         print(False)
 
 
-str_in =input()
-k_in=int(input())
-isPalindrome(str_in,k_in)
+str =input()
+k=int(input())
+isPalindrome(str,k)
